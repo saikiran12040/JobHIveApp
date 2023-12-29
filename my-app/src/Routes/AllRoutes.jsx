@@ -5,12 +5,12 @@ import { SingleApplicant } from "./SingleApplicant";
 import { Applicants } from "../Components/Applicants";
 import { Prospects } from "./Prospects";
 import { Login } from "./Login";
-import { Routes } from "react-router-dom";
-import { Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import AuthContextProvider from "../Context/AuthContext";
 
 export const AllRoutes = () => {
   return (
-    <div>
+    <AuthContextProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -32,6 +32,6 @@ export const AllRoutes = () => {
           }
         />
       </Routes>
-    </div>
+    </AuthContextProvider>
   );
 };
