@@ -2,7 +2,7 @@
 
 This React application allows users to view job seeker profiles and manage authentication using the context API.
 
-## Installation
+## Installation and About API
 
 To install the necessary dependencies, use:
 
