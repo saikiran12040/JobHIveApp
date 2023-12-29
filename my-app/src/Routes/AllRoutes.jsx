@@ -5,6 +5,8 @@ import { SingleApplicant } from "./SingleApplicant";
 import { Applicants } from "../Components/Applicants";
 import { Prospects } from "./Prospects";
 import { Login } from "./Login";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 export const AllRoutes = () => {
   return (
